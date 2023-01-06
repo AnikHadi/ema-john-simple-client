@@ -1,0 +1,27 @@
+.shop {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 45px;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 64px;
+  margin-top: 60px;
+  margin-left: 104px;
+}
+.cart-container {
+  background-color: rgba(255, 153, 0, 0.3);
+  padding: 10px;
+}
+#pagination button,
+.select-value {
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid #f9b12beb;
+  border-radius: 5px;
+}
+#pagination .selected {
+  background-color: #f9b12beb;
+  color: white;
+}

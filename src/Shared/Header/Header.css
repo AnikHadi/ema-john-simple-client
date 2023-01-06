@@ -1,0 +1,22 @@
+nav {
+  padding: 19px 85px;
+  display: flex;
+  background-color: #1c2b35;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  padding-left: 18px;
+}
+.nav-bar a {
+  padding: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  /* border-bottom: ; */
+}
